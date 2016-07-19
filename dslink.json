@@ -4,11 +4,10 @@
   "description": "DSLink Template for Python",
   "main": "src/TemplateDSLink.py",
   "engines": {
-    "packages/bin/python": ">=2.7.0"
+    "python": ">=2.7.0"
   },
   "getDependencies": [
-    "virtualenv packages",
-    "packages/bin/python setup.py install"
+    "python setup.py install"
   ],
   "configs": {
     "broker": {
