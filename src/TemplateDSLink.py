@@ -58,5 +58,6 @@ class TemplateDSLink(dslink.DSLink):
 
         reactor.callLater(self.speed, self.poll)
 
+
 if __name__ == "__main__":
     TemplateDSLink(dslink.Configuration(name="template", responder=True))
