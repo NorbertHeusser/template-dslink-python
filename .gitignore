@@ -6,4 +6,5 @@ nodes.json.bak
 *.egg-info/
 packages/
 dist/
+venv/
 
