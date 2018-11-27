@@ -13,6 +13,10 @@
     "broker": {
       "type": "url"
     },
+    "name": {
+     "type": "string",
+     "default": "dslink-python-template"
+    },
     "token": {
       "type": "string"
     }
